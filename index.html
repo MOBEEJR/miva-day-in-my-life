@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>A full day in my life — Miva Student (Mobee Micheal)</title>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<canvas id="particles" aria-hidden="true"></canvas>
+		<div class="cursor-orb" aria-hidden="true"></div>
+		<header class="site-header">
+			<div class="container header-inner">
+				<div class="brand">
+					<div class="logo">Miva</div>
+					<div class="org"><strong>Open University</strong></div>
+				</div>
+				<div class="credit">Featuring <strong>Mobee Micheal</strong></div>
+			</div>
+		</header>
+
+		<main class="container main-grid">
+					<section class="hero cyber" aria-label="Hero — A full day in my life">
+										<div class="hero-inner">
+											<div class="hero-text">
+												<h1 class="hero-title">A Full Day in My Life as a Miva Student</h1>
+												<p class="hero-sub"><strong>MOBEE MICHEAL • BSc Cyber Security • 100 Level</strong></p>
+												<p class="lead">Real. Disciplined. Meaningful. A cinematic walkthrough of a day made for focus, freedom, and growth.</p>
+
+												<div class="hero-actions">
+													<button class="btn primary" onclick="scrollToTimeline()">View Clips & Script</button>
+													<button class="btn ghost" onclick="copyFinalCaption()">Copy final caption</button>
+												</div>
+											</div>
+
+											<div class="hero-media">
+												<img loading="eager" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80" alt="cyber background">
+											</div>
+												</div>
+											</section>
+
+													<section id="timeline" class="timeline">
+				<!-- Clip cards -->
+				<div class="clips-grid">
+					<!-- We'll list each clip as a card with the exact spoken text and a cyber image -->
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?auto=format&fit=crop&w=1200&q=80" alt="shoes laid out"></div>
+						<div class="chip">1 • Shoes</div>
+						<div class="emoji">👟</div>
+						<h3>Getting Ready</h3>
+						<blockquote>“Every day starts the same way—with intention.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=1200&q=80" alt="outfit laid out on bed"></div>
+						<div class="chip">2 • Outfit</div>
+						<div class="emoji">👕</div>
+						<h3>Outfit laid out</h3>
+						<blockquote>“I prepare myself, because online learning rewards discipline.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1523978591478-c753949ff840?auto=format&fit=crop&w=1200&q=80" alt="watch closeup"></div>
+						<div class="chip">3 • Time</div>
+						<div class="emoji">⌚</div>
+						<h3>Checking the time</h3>
+						<blockquote>“When your classroom is flexible, time management becomes essential.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1508048716520-1c6a3a8f59e8?auto=format&fit=crop&w=1200&q=80" alt="packing a backpack"></div>
+						<div class="chip">4 • Pack</div>
+						<div class="emoji">🎒</div>
+						<h3>Packing backpack</h3>
+						<blockquote>“As a Miva student, my routine is something I build for myself.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1200&q=80" alt="confident walk"></div>
+						<div class="chip">5 • Walk</div>
+						<div class="emoji">🚶‍♂️</div>
+						<h3>Walking out confidently</h3>
+						<blockquote>“Flexibility doesn’t mean less effort. It means taking responsibility.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" alt="front desk with laptop"></div>
+						<div class="chip">6 • Desk</div>
+						<div class="emoji">🛎️</div>
+						<h3>Front desk / greeting / Wi‑Fi</h3>
+						<blockquote>“A good learning environment matters—and yes, good Wi‑Fi is part of that.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80" alt="elevator interior"></div>
+						<div class="chip">7 • Elevator</div>
+						<div class="emoji">🛗</div>
+						<h3>Elevator ride</h3>
+						<blockquote>“I choose spaces that help me focus, think, and grow.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80" alt="library corner"></div>
+						<div class="chip">8 • Library</div>
+						<div class="emoji">📚</div>
+						<h3>Entering the library</h3>
+						<blockquote>“This is one of my favorite parts of the day—quiet focus.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80" alt="opening laptop closeup"></div>
+						<div class="chip">9 • Laptop</div>
+						<div class="emoji">💻</div>
+						<h3>Opening laptop</h3>
+						<blockquote>“Miva Open University allows me to learn from anywhere without limiting my goals.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80" alt="typing on laptop closeup"></div>
+						<div class="chip">10 • Study</div>
+						<div class="emoji">✍️</div>
+						<h3>Studying / typing / reading</h3>
+						<blockquote>“Cybersecurity isn’t just something I study. It’s something I commit to.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80" alt="taking notes closeup"></div>
+						<div class="chip">11 • Notes</div>
+						<div class="emoji">📝</div>
+						<h3>Writing notes</h3>
+						<blockquote>“Progress comes from consistency, not pressure.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=1200&q=80" alt="coffee and stretch"></div>
+						<div class="chip">12 • Break</div>
+						<div class="emoji">☕</div>
+						<h3>Water / light stretch</h3>
+						<blockquote>“I take short breaks to stay productive and focused.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80" alt="mirror check selfie"></div>
+						<div class="chip">13 • Human</div>
+						<div class="emoji">🚻</div>
+						<h3>Restroom mirror</h3>
+						<blockquote>“Discipline includes knowing when to pause.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=1200&q=80" alt="rooftop city view"></div>
+						<div class="chip">14 • View</div>
+						<div class="emoji">🌆</div>
+						<h3>Rooftop / open view</h3>
+						<blockquote>“Moments like this remind me why balance matters.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80" alt="checking planner on phone"></div>
+						<div class="chip">15 • Planner</div>
+						<div class="emoji">📱</div>
+						<h3>Checking planner / notes</h3>
+						<blockquote>“I review my goals and plan my next steps.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80" alt="evening study session"></div>
+						<div class="chip">16 • Evening</div>
+						<div class="emoji">🌅</div>
+						<h3>Evening study session</h3>
+						<blockquote>“Learning doesn’t end early. It ends when the work is done.”</blockquote>
+					</article>
+
+					<article class="clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80" alt="closing laptop"></div>
+						<div class="chip">17 • Close</div>
+						<div class="emoji">🌙</div>
+						<h3>Closing laptop</h3>
+						<blockquote>“Every day may not be perfect—but showing up makes the difference.”</blockquote>
+					</article>
+
+					<article class="clip final-clip">
+						<div class="clip-media"><img loading="lazy" src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1200&q=80" alt="walking away calm"></div>
+						<div class="chip">FINAL</div>
+						<div class="emoji">🔚</div>
+						<h3>Walking away calmly</h3>
+						<blockquote>“This is my life at Miva—real, disciplined, and meaningful.”</blockquote>
+					</article>
+				</div>
+
+				<div class="final-caption">
+					<h3>FINAL CAPTION (POST THIS EXACTLY)</h3>
+					<p id="finalCaption">A full day in my life as a Miva Open University student 🎓 Learning with discipline. Growing with balance. #LifeAtMiva #MivaStudent #OnlineLearning #Discipline @mivauniversity</p>
+					<div class="caption-actions">
+						<button class="btn" onclick="copyFinalCaption()">Copy caption</button>
+						<button class="btn ghost" onclick="downloadScript()">Download script</button>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<small>Designed for social — calm, authentic, and premium. Voice: calm, confident; pacing: natural. Music: low volume (20–25%).</small>
+			</div>
+		</footer>
+
+		<script>
+		// Hacker vibes: matrix rain on the #particles canvas + cursor orb follow
+		(function(){
+			const canvas = document.getElementById('particles');
+			if(!canvas) return;
+			const ctx = canvas.getContext('2d');
+			let W = canvas.width = window.innerWidth;
+			let H = canvas.height = window.innerHeight;
+			window.addEventListener('resize', ()=>{W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight; cols = Math.floor(W / 16); drops.length = cols; for(let i=0;i<cols;i++) drops[i]=Math.floor(Math.random()*H/16);});
+			const letters = '01';
+			let cols = Math.floor(W / 16);
+			const drops = [];
+			for(let i=0;i<cols;i++) drops[i]=Math.floor(Math.random()*H/16);
+			function draw(){
+				ctx.fillStyle = 'rgba(0,0,0,0.06)';
+				ctx.fillRect(0,0,W,H);
+				ctx.fillStyle = '#39ff14';
+				ctx.font = '14px "Share Tech Mono", monospace';
+				for(let i=0;i<cols;i++){
+					const x = i * 16;
+					const y = drops[i] * 16;
+					const char = letters.charAt(Math.floor(Math.random()*letters.length));
+					ctx.fillText(char, x, y);
+					drops[i]++;
+					if(drops[i]*16 > H && Math.random() > 0.975) drops[i]=0;
+				}
+				requestAnimationFrame(draw);
+			}
+			draw();
+
+			// cursor orb follow
+			const orb = document.querySelector('.cursor-orb');
+			let mx = W/2, my = H/2, ox = mx, oy = my;
+			window.addEventListener('mousemove', e=>{mx=e.clientX; my=e.clientY});
+			function orbLoop(){ox += (mx-ox)*0.14; oy += (my-oy)*0.14; if(orb) orb.style.transform = `translate(${ox}px, ${oy}px)`; requestAnimationFrame(orbLoop);} orbLoop();
+		})();
+
+			const finalCaptionText = document.getElementById('finalCaption').textContent.trim();
+
+			function scrollToTimeline(){
+				document.getElementById('timeline').scrollIntoView({behavior:'smooth'});
+			}
+
+			function copyFinalCaption(){
+				navigator.clipboard?.writeText(finalCaptionText) || fallbackCopy(finalCaptionText);
+				alert('Final caption copied to clipboard');
+			}
+
+			function fallbackCopy(text){
+				const ta = document.createElement('textarea');
+				ta.value = text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
+			}
+
+			function downloadScript(){
+				const scriptLines = Array.from(document.querySelectorAll('.clip')).map(c=>{
+					const title = c.querySelector('h3')?.textContent || '';
+					const quote = c.querySelector('blockquote')?.textContent || '';
+					return `${title} — ${quote}`;
+				}).join('\n\n');
+
+				const content = `A FULL DAY IN MY LIFE — SCRIPT (Mobee Micheal)\n\n${scriptLines}\n\nFINAL CAPTION:\n${finalCaptionText}`;
+				const blob = new Blob([content], {type:'text/plain'});
+				const url = URL.createObjectURL(blob);
+				const a = document.createElement('a');
+				a.href = url; a.download = 'miva-full-day-script.txt'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+			}
+		</script>
+	</body>
+</html>
+
